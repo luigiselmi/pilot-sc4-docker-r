@@ -5,6 +5,6 @@
 
 FROM r-base:latest
 MAINTAINER Luigi Selmi <luigiselmi@gmail.com>
-
-RUN wget https://rforge.net/Rserve/snapshot/Rserve_1.8-5.tar.gz && \
+WORKDIR /home/sc4pilot
+RUN wget https://github.com/luigiselmi/pilot-sc4-docker-r/raw/master/rserve/Rserve_1.8-5.tar.gz && \
     tar xvf Rserve_1.8-5.tar.gz
