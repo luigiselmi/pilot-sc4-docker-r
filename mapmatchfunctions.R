@@ -34,7 +34,7 @@ loadPackages <- function() {
 readGeoData <- function() {
   # read shapefile with the spatial data
   # THIS IS A TEST SUB-NETWORK FROM OSM. LOADING MIGHT CHANGE TOWARDS OSM BASED METHODS
-  road <- readShapeSpatial("links_OSM_VOlgasSection")
+  road <- readShapeSpatial("/home/sc4pilot/geodata/links_OSM_VOlgasSection")
   # define projection
   proj4string(road) <- "+proj=longlat +datum=WGS84"
   road
