@@ -13,7 +13,9 @@ This component is based on Rserve (https://rforge.net/Rserve/doc.html)
 This component requires a Docker engine installed in the host where it is run.
 ##Build 
 A docker image can be built with the command
+
     $ docker build -t bde2020/pilot-sc4-rserve:latest .
+
 ##Install and Run
 Start the docker container with the command
 
