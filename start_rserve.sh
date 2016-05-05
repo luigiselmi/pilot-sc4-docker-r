@@ -1,2 +1,2 @@
 #!/bin/bash
-R CMD /usr/lib/R/bin/Rserve --RS-source mapmatchfunctions.R
+R CMD Rserve --no-save --RS-conf Rserve.conf 
